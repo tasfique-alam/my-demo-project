@@ -1,0 +1,64 @@
+body
+{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   margin: 0px;
+   padding: 0px;
+   background-color: rgb(5,173,163);
+   color: black;
+}
+#description
+{
+    text-align: center;
+    padding: 10px 20px;
+}
+#description p
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+#text
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#title
+{
+    background-color: rgb(5,173,163);
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.container
+{
+    width: 95%;
+    margin: auto;
+    background-color: white;
+    color: black;
+}
+
+#Survey-form
+{
+    padding: 50px;
+
+}
+#Survey-form label
+{
+    font-size: 17px;
+    font-weight: 500;
+
+}
+#Survey-form input
+{
+    margin: 20px;
+    padding: 5px 49px;
+
+}
+.describe{
+    margin: 20px 0px;
+    padding: 5px 100px;
+}

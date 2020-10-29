@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Style.css">
+</head>
+
+<body>
+    <header id="title">
+        <h1> Survey Form </h1>
+    </header>
+    <section>
+        <div class="container">
+            <div id="description">
+                <p>Please fill the following section</p>
+            </div>
+            <form id="Survey-form">
+                <label>Name</label>
+                <input type="text" name="Name"><br>
+                <label>Email</label>
+                <input type="email" name="Email"><br>
+                <label>Age</label>
+                <input style="margin-left: 32px;" type="number" name="Age"><br>
+                <div>
+                    <label>Which option best describe your current role?</label><br>
+                    <select class="describe">
+                        <option>Student</option>
+                        <option>Part time job holder</option>
+                        <option>Full time job holder</option>
+                        <option>Businessman</option>
+                        <option>Broke</option>
+                    </select>
+                </div>
+                <div>
+                    <div>
+                        <label>How would you describe computer programming</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="suggest">
+                        <label>Excellent</label>
+                        <input type="radio" name="suggest">
+                        <label>Better</label>
+                        <input type="radio" name="suggest">
+                        <label>Somewhat Better</label>
+                        <input type="radio" name="suggest">
+                        <label>Worse</label>
+                        <input type="radio" name="suggest">
+                        <label>Not For Me</label>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label>What do you like to do most in CSE</label>
+                    </div>
+                    <div>
+                        <select class="describe">
+                            <option>Select an option </option>
+                            <option>Web Development </option>
+                            <option>Game Development </option>
+                            <option>Software Engineering </option>
+                            <option>Security Analyist </option>
+                            <option>Computer Architecture </option>
+                            <option>Artificial Intelligence </option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label>What should be improved in your programming?</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="Project" value="Practise">
+                        <label>front-end-project</label>
+                        <input type="radio" name="Project" value="Problem Solving">
+                        <label>Problem Solving</label>
+                        <input type="radio" name="Project" value="Debugging">
+                        <label>Debugging</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
