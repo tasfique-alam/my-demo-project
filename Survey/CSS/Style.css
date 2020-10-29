@@ -62,3 +62,30 @@ body
     margin: 20px 0px;
     padding: 5px 100px;
 }
+
+tbody tr:nth-child(even){
+    background-color: aqua;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.special-items{
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+.special-items img{
+    width: 400px;
+    height: 300px;
+    margin: 20px 40px;
+}
+.special-items p{
+    padding: 10px;
+}
+
+.heading{
+    padding: 20px;
+    border-top: 1px solid #000;
+}
