@@ -1,26 +1,3 @@
-.learning{
-    width: 500px;
-    margin-top: 100px;
-    height: 500px;
-    background-image:linear-gradient(120deg, red, green, blue);
-    box-shadow: 10px 10px 5px black;
-    display: flex;
-    flex-wrap: wrap;
-    border: 10px dotted transparent;
-    border-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/How_to_use_icon.svg/1200px-How_to_use_icon.svg.png') 20 round;
-}
 
-.btn{
-    margin-bottom: 20px;
 
-}
-
-.third{
-    align-self: center;
-}
-
-.box p{
-    white-space: nowrap;
-    border: 1px solid black;
-    width: 200px;
-}
+/*# sourceMappingURL=style.css.map */
