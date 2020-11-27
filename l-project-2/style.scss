@@ -1,0 +1,12 @@
+.myBox{
+    background-color: aliceblue;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    .icon{
+        border: 1px solid black;
+        padding: 20px;
+        text-align:  center;
+    }
+}
