@@ -1,6 +1,11 @@
-.dcmdaknm{
-    jhdfdjf
-}
+/*--- Mixin for Custom Breakpiont ---*/
+.container .home {
+  width: 500px;
+  height: 500px;
+  background-color: red; }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .container .home {
+      width: 200px;
+      height: 200px; } }
 
-
-i am akash
+/*# sourceMappingURL=style.css.map */
