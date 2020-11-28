@@ -7,5 +7,9 @@
     .container .home {
       width: 200px;
       height: 200px; } }
+  @media (min-width: 575px) and (max-width: 1199px) {
+    .container .home {
+      width: 100px;
+      height: 100px; } }
 
 /*# sourceMappingURL=style.css.map */
