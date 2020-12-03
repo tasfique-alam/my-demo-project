@@ -1,0 +1,117 @@
+body 
+{
+    height: 300px;
+    padding: 110px;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Anonymous Pro', monospace;
+    background-color: rgb(25, 25, 25);
+}
+.picture1
+{
+        width: 1100px;
+        height: 500px;
+        border: 3px solid violet;
+        float: inherit;    
+}
+
+.line
+{
+    color:blue;
+    position: left;
+    top: 50%;  
+    width: 100px;
+    margin: 0 auto;
+    border-right: 2px solid black;
+    font-size: 180%;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+/* Animation */
+.anim-typewriter
+{
+  animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter
+{
+  from{width: 0;}
+  to{width: 380px;}
+}
+@keyframes blinkTextCursor
+{
+  from
+  {
+      border-right-color: black;
+  }
+  to
+  {
+      border-right-color: transparent;
+  }
+}
+.my-box 
+  {
+    background-color: rgb(96, 175, 93);
+    padding: 30px;
+  }
+  .my-box .icon 
+  {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: left;
+    position: relative;
+    justify-content: center;
+  }
+  .my-box .icon:hover 
+  {
+    background-color: yellow;
+  }
+  .my-box .icon:hover .notification 
+  {
+    background-color: yellow;
+    color: red;
+  }
+
+  .my-box .icon:hover .main-icon 
+  {
+    color: white;
+  }
+  .my-box .icon .main-icon 
+  {
+    font-size: 30px;
+  }
+  .my-box .icon .notification 
+  {
+    position: absolute;
+    top: 3px;
+    right: -8px;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .my-box .icon .notification::after 
+  {
+    content: "(*_*)";
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    color:blueviolet;
+    font: normal normal normal 30px/1 FontAwesome;
+  }
+.footer
+{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 40px;
+}
