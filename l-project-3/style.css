@@ -468,16 +468,108 @@ html, body {
 
 .testimonial {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .testimonial .bg {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   background-image: url("img/1722.jpg");
   height: 450px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 40%;
+}
+.testimonial .carousel-inner .img-circle {
+  height: 120px;
+  width: 120px;
+  border: 7px solid #777a7d;
+  border-radius: 50%;
+  margin-left: 45%;
+  margin-top: 50px;
+}
+.testimonial h3 {
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #3e3f40;
+}
+.testimonial h4 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #3e3f40;
+}
+.testimonial p {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: #3e3f40;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.testimonial .indicator {
+  margin-top: 30px !important;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-right: 30px;
+  background-color: #1a1919;
+}
+
+.portfolio .section-title {
+  text-align: center;
+  justify-content: center;
+}
+.portfolio .section-title h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #0279db;
+  background-color: #e6f6fc;
+  margin-left: 45%;
+  margin-right: 45%;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.portfolio .section-title h3 {
+  font-size: 30px;
+  color: #3e3f40;
+  font-weight: bold;
+}
+.portfolio .section-title h3 span {
+  color: #0279db;
+}
+.portfolio .section-title p {
+  font-weight: bold;
+  color: #3b3b3b;
+  margin-left: 28%;
+  margin-right: 28%;
+  margin-bottom: 30px;
+}
+.portfolio .row #portfolio {
+  display: flex;
+  margin-left: 37%;
+}
+.portfolio .row #portfolio li {
+  list-style-type: none;
+  margin-right: 18px;
+  font-size: 20px;
+  color: #3b3b3b;
+}
+.portfolio .row #portfolio li:hover {
+  color: #0279db;
+  font-weight: bold;
+}
+.portfolio .bg1 {
+  margin-bottom: 30px;
+  background-image: url("img/portfolio-1.jpg");
+  height: 450px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

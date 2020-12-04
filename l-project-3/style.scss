@@ -626,13 +626,154 @@ p{
 }
 
 
-.testimonial{
-    margin-top: 100px;
-.bg {
 
-  margin-bottom: 10px;
-    background-image: url("img/1722.jpg");
+
+
+.testimonial{
   
+    margin-top: 100px;
+    margin-bottom: 100px;
+ 
+   
+    .bg {
+
+        margin-bottom: 30px;
+          background-image: url("img/1722.jpg");
+        
+        
+          height: 450px;
+          width: 100%;
+        
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        
+    
+      }
+    
+      .carousel-inner .img-circle{
+
+        height: 120px;
+        width: 120px;
+        border: 7px solid rgba(119, 122, 125);
+        border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 50px;
+    
+        }
+
+
+         h3{
+             padding-top: 10px;
+             font-size: 30px;
+             font-weight: bold;
+        text-align: center;
+        color:rgba(62, 63, 64);
+         }
+         h4{
+          
+            font-size: 20px;
+            font-weight: bold;
+       text-align: center;
+       color:rgba(62, 63, 64);
+        }
+
+        p{
+            font-size: 20px;
+            font-style: italic;
+            font-weight: bold;
+            color:rgba(62, 63, 64);
+            margin-left:10%;
+            margin-right: 10%;
+            margin-bottom: 60px;
+           text-align: center;   
+
+        }
+
+      
+
+
+        .indicator{
+            margin-top: 30px !important;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+         margin-right: 30px;
+          background-color:rgb(26, 25, 25);
+        }
+     
+        
+}
+
+.portfolio{
+
+
+    .section-title{
+
+        text-align: center;
+        justify-content: center;
+    
+    
+    
+     h2{
+         font-size: 20px;
+         font-weight: bolder;
+         color: rgba(2, 121, 219);
+    background-color: rgba(230, 246, 252);
+    
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+      }
+    h3{
+     font-size: 30px;
+     color:rgba(62, 63, 64);
+    font-weight: bold;
+    span{
+    
+    color: rgba(2, 121, 219);
+    
+    }
+    
+    }
+    
+    p{
+    
+        font-weight: bold;
+        color: rgba(59, 59, 59);
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-bottom: 30px;
+    }
+    
+    }
+
+.row{
+   
+    #portfolio{
+        display: flex;
+        margin-left: 37%;
+        li{
+       
+            list-style-type: none;
+            margin-right: 18px;
+            font-size: 20px;
+            color: rgba(59, 59, 59);
+           
+        }
+        li:hover{
+            color: rgba(2, 121, 219);
+            font-weight: bold;
+        }
+    }
+}
+
+
+.bg1{
+    margin-bottom: 30px;
+    background-image: url("img/portfolio-1.jpg");
+   
   
     height: 450px;
     width: 100%;
@@ -640,8 +781,13 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 40%;
+
+
+
 }
-  
-}
+} 
+
+
+
+
 
