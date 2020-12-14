@@ -1,121 +1,155 @@
-body 
-{
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    background-color: #45db3d65;
+body {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  background-color: #45db3d65;
 }
-.img-class
-{
-   background-image: url(img/associate1.png);
-   height: 100%;
-   width: 100%;
+
+.img-class {
+  background-image: url(img/associate1.png);
+  height: 100%;
+  width: 100%;
 }
-.card-img-top{
-  mask-image: url(img/logo3.png);
+
+.card-img-top {
+  -webkit-mask-image: url(img/logo3.png);
+          mask-image: url(img/logo3.png);
   height: 15%;
   width: 50%;
 }
-.line
-{
-    color:blue;
-    position: left;
-    top: 50%;  
-    width: 100px;
-    margin: 0 auto;
-    border-right: 2px solid black;
-    font-size: 180%;
-    text-align: left;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
+
+.line {
+  color: blue;
+  position: left;
+  top: 50%;
+  width: 100px;
+  margin: 0 auto;
+  border-right: 2px solid black;
+  font-size: 180%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
+
 /* Animation */
-.anim-typewriter
-{
-  animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+.anim-typewriter {
+  -webkit-animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+          animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
 }
 
-@keyframes typewriter
-{
-  from{width: 0;}
-  to{width: 380px;}
-}
-@keyframes blinkTextCursor
-{
-  from
-  {
-      border-right-color: black;
+@-webkit-keyframes typewriter {
+  from {
+    width: 0;
   }
-  to
-  {
-      border-right-color: transparent;
+  to {
+    width: 380px;
   }
 }
-.my-box 
-  {
-    background-color: rgb(96, 175, 93);
-    padding: 30px;
-  }
-  .my-box .icon 
-  {
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    display: flex;
-    align-items: left;
-    position: relative;
-    justify-content: center;
-  }
-  .my-box .icon:hover 
-  {
-    background-color: yellow;
-  }
-  .my-box .icon:hover .notification 
-  {
-    background-color: yellow;
-    color: red;
-  }
 
-  .my-box .icon:hover .main-icon 
-  {
-    color: white;
+@keyframes typewriter {
+  from {
+    width: 0;
   }
-  .my-box .icon .main-icon 
-  {
-    font-size: 30px;
+  to {
+    width: 380px;
   }
-  .my-box .icon .notification 
-  {
-    position: absolute;
-    top: 3px;
-    right: -8px;
-    border: 1px solid black;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+@-webkit-keyframes blinkTextCursor {
+  from {
+    border-right-color: black;
   }
-  .my-box .icon .notification::after 
-  {
-    content: "->";
-    font-size: 20px;
-    font-weight: 900;
-    position: absolute;
-    right: -100px;
-    top: 50%;
-    color: black;
-    font: normal normal normal 30px/1 FontAwesome;
+  to {
+    border-right-color: transparent;
   }
-.footer
-{
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: black;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.my-box {
+  background-color: #60af5d;
+  padding: 30px;
+}
+
+.my-box .icon {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.my-box .icon:hover {
+  background-color: yellow;
+}
+
+.my-box .icon:hover .notification {
+  background-color: yellow;
+  color: red;
+}
+
+.my-box .icon:hover .main-icon {
+  color: white;
+}
+
+.my-box .icon .main-icon {
+  font-size: 30px;
+}
+
+.my-box .icon .notification {
+  position: absolute;
+  top: 3px;
+  right: -8px;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.my-box .icon .notification::after {
+  content: "->";
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  right: -100px;
+  top: 50%;
+  color: black;
+  font: normal normal normal 30px/1 FontAwesome;
+}
+
+.footer {
   background-color: #3f3f3f;
   color: #d5d5d5;
   padding-top: 40px;
 }
+/*# sourceMappingURL=style_1.css.map */
