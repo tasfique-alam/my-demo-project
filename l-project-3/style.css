@@ -1,4 +1,21 @@
-html, body {
+.about {
+  margin-top: 50px;
+}
+.about__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about__header-top {
+  background-color: aquamarine;
+  color: black;
+  font-size: 13px;
+  padding: 3px 6px;
+  border-radius: 30px;
+}
+html,
+body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -152,62 +169,6 @@ html, body {
 .padding .description {
   color: #3b3b3b;
   padding-top: 3px;
-}
-
-.about {
-  margin-top: 50px;
-  padding-top: 60px;
-  background-color: #e6f6fc;
-}
-.about .title {
-  text-align: center;
-  justify-content: center;
-}
-.about .title h2 {
-  font-size: 20px;
-  font-weight: bolder;
-  color: #0279db;
-  background-color: #e6f6fc;
-  margin-left: 45%;
-  margin-right: 45%;
-  border-radius: 30px;
-  margin-bottom: 20px;
-}
-.about .title h3 {
-  color: black;
-  font-weight: bold;
-}
-.about .title h3 span {
-  color: #0279db;
-}
-.about .title p {
-  font-weight: bold;
-  color: #3b3b3b;
-  margin-left: 28%;
-  margin-right: 28%;
-  margin-bottom: 30px;
-}
-.about .fas {
-  padding: 15px 0px;
-  margin-left: 0%;
-  margin-right: 90%;
-  background-color: white;
-  text-align: center;
-  justify-content: center;
-  border-radius: 50%;
-  font-size: 22px;
-  color: #0279db;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
-}
-.about .text {
-  margin-left: 70px;
-  margin-bottom: auto;
-}
-.about .font-italic {
-  margin-left: 0px !important;
-}
-.about .img-fluid {
-  height: 445px;
 }
 
 .skills {
@@ -462,7 +423,12 @@ html, body {
 .card:hover .icon {
   border: 1px solid #0279db;
 }
-.card:hover .title1, .card:hover .title2, .card:hover .title3, .card:hover .title4, .card:hover .title5, .card:hover .title6 {
+.card:hover .title1,
+.card:hover .title2,
+.card:hover .title3,
+.card:hover .title4,
+.card:hover .title5,
+.card:hover .title6 {
   color: #0279db !important;
 }
 
