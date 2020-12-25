@@ -1,0 +1,56 @@
+.card1{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
+   position: relative;
+
+}
+
+.card1:hover .overlay{
+    height: 100%;
+}
+.card1:hover .icon{
+    color: white;
+}
+.card1:hover .title{
+    color: white;
+}
+.card1:hover .description{
+    color: white;
+}
+
+.overlay{
+    position: absolute;
+    height: 0px;
+    background-color:aqua;
+    bottom:0;
+    left:0;
+    right: 0;
+    transition: all .7s;
+    z-index: 0;
+}
+
+
+.icon-box{
+    padding-top: 10px;
+    padding-left: 20px;
+    position: absolute;
+    z-index: 99999;
+}
+
+.icon{
+
+font-size: 40px;
+color: rgba(2, 121, 219);
+z-index: 11;
+}
+.title{
+
+font-size: 18px;
+font-weight: bolder;
+color: black;
+padding-top: 5px;
+
+}
