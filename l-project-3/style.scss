@@ -1,10 +1,5 @@
 @import './about';
 
-html,
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 #topbar {
     background-color: rgba(2, 121, 219);
     padding-top: 15px;
@@ -212,14 +207,11 @@ body {
 .count-box {
     height: 130px;
     width: 255px;
-    padding-right: 50px;
     background-color: rgba(230, 246, 252);
-
-    margin-top: 50px;
-    margin-bottom: 50px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .fas {
-        margin-left: 50%;
         padding: 10px 10px 10px 10px;
         border-radius: 50%;
         background-color: rgba(2, 121, 219);
@@ -232,46 +224,29 @@ body {
     }
 
     .counter-up1 {
-        margin-left: 55.5%;
-        margin-top: 3%;
         font-size: 25px;
         font-weight: bold;
         color: rgba(3, 9, 46);
+        margin-top: 20px;
     }
     .counter-up2 {
-        margin-left: 52%;
-        margin-top: 3%;
         font-size: 25px;
         font-weight: bold;
         color: rgba(3, 9, 46);
     }
     .counter-up3 {
-        margin-left: 47%;
-        margin-top: 3%;
         font-size: 25px;
         font-weight: bold;
         color: rgba(3, 9, 46);
     }
     .counter-up4 {
-        margin-left: 57.5%;
-        margin-top: 3%;
         font-size: 25px;
         font-weight: bold;
         color: rgba(3, 9, 46);
     }
-
+    
     p {
-        margin-left: 38%;
         font-size: 15px;
-    }
-    .pro {
-        margin-left: 49%;
-    }
-    .hard {
-        margin-left: 42%;
-    }
-    .happy {
-        margin-left: 40%;
     }
 }
 

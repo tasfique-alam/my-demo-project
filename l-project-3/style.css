@@ -14,9 +14,9 @@
   padding: 3px 6px;
   border-radius: 30px;
 }
-html,
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.my-project__left-btn {
+  color: green;
+  padding: 10;
 }
 
 #topbar {
@@ -210,13 +210,12 @@ body {
 .count-box {
   height: 130px;
   width: 255px;
-  padding-right: 50px;
   background-color: #e6f6fc;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .count-box .fas {
-  margin-left: 50%;
   padding: 10px 10px 10px 10px;
   border-radius: 50%;
   background-color: #0279db;
@@ -228,45 +227,28 @@ body {
   margin-top: -30px;
 }
 .count-box .counter-up1 {
-  margin-left: 55.5%;
-  margin-top: 3%;
   font-size: 25px;
   font-weight: bold;
   color: #03092e;
+  margin-top: 20px;
 }
 .count-box .counter-up2 {
-  margin-left: 52%;
-  margin-top: 3%;
   font-size: 25px;
   font-weight: bold;
   color: #03092e;
 }
 .count-box .counter-up3 {
-  margin-left: 47%;
-  margin-top: 3%;
   font-size: 25px;
   font-weight: bold;
   color: #03092e;
 }
 .count-box .counter-up4 {
-  margin-left: 57.5%;
-  margin-top: 3%;
   font-size: 25px;
   font-weight: bold;
   color: #03092e;
 }
 .count-box p {
-  margin-left: 38%;
   font-size: 15px;
-}
-.count-box .pro {
-  margin-left: 49%;
-}
-.count-box .hard {
-  margin-left: 42%;
-}
-.count-box .happy {
-  margin-left: 40%;
 }
 
 .clients {

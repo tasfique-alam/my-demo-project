@@ -32,3 +32,14 @@
         
     }
 }
+
+
+
+.my-project{
+    &__left{
+        &-btn{
+            color:green;
+            padding: 10;
+        }
+    }
+}
